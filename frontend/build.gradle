@@ -1,12 +1,8 @@
 plugins {
     id kotlin('multiplatform')
+    application
 }
 
-
-sourceSets {
-
-
-}
 
 kotlin {
     jvm()
