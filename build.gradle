@@ -1,0 +1,12 @@
+plugins {
+    id 'com.github.hierynomus.gradle-python' version '0.5'
+}
+
+python {
+    pythonBinary = 'python' // or 'python' depending on your system
+}
+
+task build(type: PythonTask) {
+    command = 'setup.py'
+    args = ['build']
+}
