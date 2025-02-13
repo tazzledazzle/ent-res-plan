@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
-from typing import List, Optional
 from decimal import Decimal
+from typing import List, Dict
 
-from src.core_domain_models import WorkOrder
+from src.core_domain_models import WorkOrder, Resource, BillOfMaterials, Project, Workflow, TimeEntry, ExpenseEntry
 
 
 class ProductionPlanningService:
