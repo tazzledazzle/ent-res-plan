@@ -1,0 +1,17 @@
+plugins {
+    id kotlin('multiplatform')
+}
+
+
+sourceSets {
+
+
+}
+
+kotlin {
+    jvm()
+    js(IR) {
+        browser()
+        nodejs()
+    }
+}
