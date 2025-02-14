@@ -57,23 +57,4 @@ kotlin {
         }
     }
 }
-dependencies {
-//    // React Wrappers
-//    implementation("org.jetbrains.kotlin-wrappers:kotlin-react:$kotlinReactVersion")
-//    implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom:$kotlinReactVersion")
-//    implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion:$kotlinEmotionVersion")
-//    implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom:$kotlinReactDom")
-//
-//    // Coroutines
-//    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
-//
-//    // Serialization
-//    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
-//
-//    // HTTP Client
-//    implementation("io.ktor:ktor-client-core:$ktorVersion")
-//    implementation("io.ktor:ktor-client-js:$ktorVersion")
-//    implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
-//    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-}
-
+//.todo: build and turn into an application
