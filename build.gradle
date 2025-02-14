@@ -1,12 +1,4 @@
 plugins {
-    id 'com.github.hierynomus.gradle-python' version '0.5'
+    id 'com.pswidersk.python-plugin' version '2.8.2'
 }
 
-python {
-    pythonBinary = 'python' // or 'python' depending on your system
-}
-
-task build(type: PythonTask) {
-    command = 'setup.py'
-    args = ['build']
-}
